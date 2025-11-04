@@ -143,7 +143,3 @@ The entire ETL pipeline is now **dockerized** and managed with **Airflow**.
 
 ---
 
-We hope this project demonstrates effective methods for building robust data pipelines. Contributions and suggestions are welcome! HEAD
-
-
- 7e85d762bf4e949ebb0c619d31eda272d8ff9380
