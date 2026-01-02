@@ -27,6 +27,7 @@ def upload_to_gcs(local_file, bucket_name, destination_blob_name):
     storage_client = storage.Client.from_service_account_json(GCS_KEY_PATH)
     bucket = storage_client.bucket(bucket_name)
     blob = bucket.blob(destination_blob_name)
+    blob = bucket.blob(destination_blob_name)
 
     blob.upload_from_filename(local_file)
     print(f"🚀 Uploaded {local_file} to gs://{bucket_name}/{destination_blob_name}")
