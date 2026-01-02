@@ -11,6 +11,7 @@ GCS_KEY_PATH = os.getenv("GCS_KEY_PATH", "../config/gcs_service_account.json")
 
 # Local storage settings
 CLEANED_DIR = "../data/cleaned"
+CLEANED_DIR = "../data/cleaned"
 TABLE_NAME = "yellow_taxi_trips"
 cleaned_file_path = os.path.join(CLEANED_DIR, f"{TABLE_NAME}_cleaned.parquet")
 
